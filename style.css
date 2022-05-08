@@ -1,0 +1,25 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    color: whitesmoke;
+    font-family: Roboto, monospace;
+    align-items: center;
+}
+input {
+    text-align: center;
+    margin: 0 0 15px 0;
+    line-height: 24px;
+    min-width: 400px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+span {
+    text-align: center;
+    font-size: 18px;
+}
