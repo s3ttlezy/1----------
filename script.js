@@ -12,7 +12,7 @@ const palindrome = (str) => {
     // Проверка на палиндром
     if (str == str2) return true; else return false;
 }
-// Считывание значения input'а, и вывод его проверки на палиндром
+// Считывание значения input'а, и вывод его проверки на палиндром a
 const inputVal = document.querySelector('input');
 const result = document.querySelector('span');
 button.onclick = function() {
