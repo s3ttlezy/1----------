@@ -12,9 +12,10 @@ const palindrome = (str) => {
     // Проверка на палиндром
     if (str == str2) return true; else return false;
 }
-// Считывание значения input'а, и вывод его проверки на палиндром a
+// Считывание значения input'а, и вывод его проверки на палиндром 
 const inputVal = document.querySelector('input');
 const result = document.querySelector('span');
 button.onclick = function() {
 	result.innerHTML = palindrome(input.value);
 }
+// Some changes for git
